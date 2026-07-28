@@ -1,4 +1,4 @@
-$setupPath = "C:\Users\moldo\AppData\Local\Android\Sdk\platform-tools\tablets_setup.ps1"
+$setupPath = "***"
 . $setupPath
 .\adb start-server 
 
@@ -24,7 +24,7 @@ $Devices | ForEach-Object -Parallel {
     . ($using:setupPath)
     
     $ID = $_
-    $adb = "C:\Users\moldo\AppData\Local\Android\Sdk\platform-tools\adb.exe"
+    $adb = "*****"
 
 
     Write-Host "Starting on tablet: $ID" -ForegroundColor Blue
@@ -43,7 +43,7 @@ $Devices | ForEach-Object -Parallel {
 
    if ($Excel_Store.Count -gt 0)
    {
-	($Excel_Store.ToArray()) | Export-Csv -Path "C:\Exceluri_Tablete\Tablete_noi.csv" -NoTypeInformation -Append
+	($Excel_Store.ToArray()) | Export-Csv -Path "xxxxx.csv" -NoTypeInformation -Append
    } 
 	
 
