@@ -1,0 +1,16 @@
+.idea/
+*.iml
+.gradle/
+build/
+app/build/
+adb.exe
+AdbWinApi.dll
+AdbWinUsbApi.dll
+*.apk
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.log
+*.txt
